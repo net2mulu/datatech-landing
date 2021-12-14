@@ -29,18 +29,8 @@ export default function Header() {
                         <li>
                           <Link href="about">About</Link>
                         </li>
-                        <li className="has-dropdown">
-                          <a href="services.html">Services</a>
-                          <ul className="submenu">
-                            <li>
-                              <a href="services.html">Services</a>
-                            </li>
-                            <li>
-                              <a href="services-details.html">
-                                Services Details
-                              </a>
-                            </li>
-                          </ul>
+                        <li>
+                          <Link href="services">Services</Link>
                         </li>
                         <li className="has-dropdown">
                           <a href="blog.html">Blog</a>
@@ -56,8 +46,8 @@ export default function Header() {
                             </li>
                           </ul>
                         </li>
-                        <li className="has-dropdown">
-                          <a href="about.html">Pages</a>
+                        <li>
+                          <Link href="/about">Pages</Link>
                           <ul className="submenu">
                             <li>
                               <a href="faq.html">Faq</a>
