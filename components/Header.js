@@ -14,37 +14,20 @@ export default function Header() {
               <div className="row align-items-center">
                 <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-6">
                   <div className="logo">
-                    <a href="index.html">
+                    <Link href="/">
                       <img src="assets/img/logo/logoo.png" alt="logo" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
                   <div className="main-menu main-menu-4 pl-20">
                     <nav id="mobile-menu">
                       <ul>
-                        <li className="has-dropdown">
-                          <a href="index.html">Home</a>
-                          <ul className="submenu">
-                            <li>
-                              <a href="index.html">Home 1</a>
-                            </li>
-                            <li>
-                              <a href="index-2.html">Home 2</a>
-                            </li>
-                            <li>
-                              <a href="index-3.html">Home 3</a>
-                            </li>
-                            <li>
-                              <a href="index-4.html">Home 4</a>
-                            </li>
-                            <li>
-                              <a href="index-5.html">Home 5</a>
-                            </li>
-                          </ul>
+                        <li>
+                          <Link href="/">Home</Link>
                         </li>
                         <li>
-                          <a href="about.html">About</a>
+                          <Link href="about">About</Link>
                         </li>
                         <li className="has-dropdown">
                           <a href="services.html">Services</a>

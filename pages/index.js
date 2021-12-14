@@ -1,6 +1,6 @@
-import Layout from "@/components/Layout";
-import { Testimonial } from "@/components/Testimonial";
-import  {Hero}  from "@/components/SubComponents/Hero";
+import Layout from "../components/Layout";
+import { Testimonial } from "../components/Testimonial";
+import { Hero } from "../components/SubComponents/Hero";
 
 export default function Home() {
   return (
@@ -185,7 +185,7 @@ export default function Home() {
             </div>
           </section>
           {/* cta area end */}
-          {/* <Testimonial /> */}
+          <Testimonial />
           {/* support area start */}
           <section className="support__area grey-bg-12 pt-105 pb-90">
             <div className="container">

@@ -149,7 +149,7 @@ export default function Footer() {
                   <div className="col-xxl-12 wow fadeInUp" data-wow-delay=".3s">
                     <div className="footer__copyright-wrapper footer__copyright-wrapper-3 text-center">
                       <p>
-                        Copyright © 2021 All Rights Reserved {" "}
+                        Copyright © 2021 All Rights Reserved{" "}
                         <a href="https://datatechet.com">Data-Tech</a>
                       </p>
                     </div>
