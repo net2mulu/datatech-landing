@@ -1,8 +1,6 @@
 import Layout from "../components/Layout";
 import { Testimonial } from "../components/Testimonial";
 import { Hero } from "../components/SubComponents/Hero";
-import Image from "next/image";
-
 
 export default function Home() {
   return (
@@ -12,12 +10,12 @@ export default function Home() {
           {/* features area start */}
           <section className="features__area pt-135 pb-120 p-relative">
             <div className="features__shape-2">
-              <Image className="features-2-dot" src="assets/img/icon/features/home-2/features-dot.png" alt="" />
-              <Image className="features-2-dot-2" src="assets/img/icon/features/home-2/features-dot-2.png" alt="" />
-              <Image className="features-2-dot-3" src="assets/img/icon/features/home-2/features-dot-3.png" alt="" />
-              <Image className="features-2-triangle-1" src="assets/img/icon/features/home-2/features-triangle-1.png" alt="" />
-              <Image className="features-2-triangle-2" src="assets/img/icon/features/home-2/features-triangle-2.png" alt="" />
-              <Image className="features-2-triangle-3" src="assets/img/icon/features/home-2/features-triangle-3.png" alt="" />
+              <img className="features-2-dot" src="assets/img/icon/features/home-2/features-dot.png" alt="" />
+              <img className="features-2-dot-2" src="assets/img/icon/features/home-2/features-dot-2.png" alt="" />
+              <img className="features-2-dot-3" src="assets/img/icon/features/home-2/features-dot-3.png" alt="" />
+              <img className="features-2-triangle-1" src="assets/img/icon/features/home-2/features-triangle-1.png" alt="" />
+              <img className="features-2-triangle-2" src="assets/img/icon/features/home-2/features-triangle-2.png" alt="" />
+              <img className="features-2-triangle-3" src="assets/img/icon/features/home-2/features-triangle-3.png" alt="" />
             </div>
             <div className="container">
               <div className="row">
@@ -50,30 +48,30 @@ export default function Home() {
                       <div className="tab-pane fade" id="sync" role="tabpanel" aria-labelledby="sync-tab">
                         <div className="features__thumb">
                           <div className="features__thumb-inner">
-                            <Image className="fea-thumb" src="assets/img/features/home-2/fea-thumb-2.jpg" alt="" />
-                            <Image className="fea-sm" src="assets/img/features/home-2/fea-sm.jpg" alt="" />
-                            <Image className="fea-sm-2" src="assets/img/features/home-2/fea-sm-2.jpg" alt="" />
-                            <Image className="fea-2-shape" src="assets/img/icon/features/home-2/features-shape.png" alt="" />
+                            <img className="fea-thumb" src="assets/img/features/home-2/fea-thumb-2.jpg" alt="" />
+                            <img className="fea-sm" src="assets/img/features/home-2/fea-sm.jpg" alt="" />
+                            <img className="fea-sm-2" src="assets/img/features/home-2/fea-sm-2.jpg" alt="" />
+                            <img className="fea-2-shape" src="assets/img/icon/features/home-2/features-shape.png" alt="" />
                           </div>
                         </div>
                       </div>
                       <div className="tab-pane fade show active" id="security" role="tabpanel" aria-labelledby="security-tab">
                         <div className="features__thumb">
                           <div className="features__thumb-inner">
-                            <Image className="fea-thumb" src="assets/img/features/home-2/fea-thumb.jpg" alt="" />
-                            <Image className="fea-sm" src="assets/img/features/home-2/fea-sm.jpg" alt="" />
-                            <Image className="fea-sm-2" src="assets/img/features/home-2/fea-sm-2.jpg" alt="" />
-                            <Image className="fea-2-shape" src="assets/img/icon/features/home-2/features-shape.png" alt="" />
+                            <img className="fea-thumb" src="assets/img/features/home-2/fea-thumb.jpg" alt="" />
+                            <img className="fea-sm" src="assets/img/features/home-2/fea-sm.jpg" alt="" />
+                            <img className="fea-sm-2" src="assets/img/features/home-2/fea-sm-2.jpg" alt="" />
+                            <img className="fea-2-shape" src="assets/img/icon/features/home-2/features-shape.png" alt="" />
                           </div>
                         </div>
                       </div>
                       <div className="tab-pane fade" id="multitask" role="tabpanel" aria-labelledby="multitask-tab">
                         <div className="features__thumb">
                           <div className="features__thumb-inner">
-                            <Image className="fea-thumb" src="assets/img/features/home-2/fea-thumb-3.jpg" alt="" />
-                            <Image className="fea-sm" src="assets/img/features/home-2/fea-sm.jpg" alt="" />
-                            <Image className="fea-sm-2" src="assets/img/features/home-2/fea-sm-2.jpg" alt="" />
-                            <Image className="fea-2-shape" src="assets/img/icon/features/home-2/features-shape.png" alt="" />
+                            <img className="fea-thumb" src="assets/img/features/home-2/fea-thumb-3.jpg" alt="" />
+                            <img className="fea-sm" src="assets/img/features/home-2/fea-sm.jpg" alt="" />
+                            <img className="fea-sm-2" src="assets/img/features/home-2/fea-sm-2.jpg" alt="" />
+                            <img className="fea-2-shape" src="assets/img/icon/features/home-2/features-shape.png" alt="" />
                           </div>
                         </div>
                       </div>
@@ -99,9 +97,9 @@ export default function Home() {
                 </div>
                 <div className="col-xxl-6 col-xl-6 col-lg-5">
                   <div className="promotion__thumb-4 p-relative">
-                    <Image className="promotion-4-big" src="assets/img/promotion/home-4/promotion-big.jpg" alt="" />
-                    <Image className="promotion-4-sm" src="assets/img/promotion/home-4/promotion-sm.jpg" alt="" />
-                    <Image className="promotion-4-circle" src="assets/img/promotion/home-4/circle.png" alt="" />
+                    <img className="promotion-4-big" src="assets/img/promotion/home-4/promotion-big.jpg" alt="" />
+                    <img className="promotion-4-sm" src="assets/img/promotion/home-4/promotion-sm.jpg" alt="" />
+                    <img className="promotion-4-circle" src="assets/img/promotion/home-4/circle.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -123,7 +121,7 @@ export default function Home() {
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                   <div className="services__item-4 white-bg mb-30">
                     <div className="services__thumb-4 text-center d-flex align-items-end justify-content-center">
-                      <Image src="assets/img/services/home-4/services-1.png" alt="" />
+                      <img src="assets/img/services/home-4/services-1.png" alt="" />
                     </div>
                     <div className="services__content-4">
                       <h3 className="services__title-4"><a href="services-details.html">Finish routine tasks automatically</a></h3>
@@ -135,7 +133,7 @@ export default function Home() {
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                   <div className="services__item-4 white-bg mb-30">
                     <div className="services__thumb-4 text-center d-flex align-items-end justify-content-center">
-                      <Image src="assets/img/services/home-4/services-2.png" alt="" />
+                      <img src="assets/img/services/home-4/services-2.png" alt="" />
                     </div>
                     <div className="services__content-4">
                       <h3 className="services__title-4"><a href="services-details.html">Start workflows from any app</a></h3>
@@ -158,7 +156,7 @@ export default function Home() {
           {/* cta area start */}
           <section className="cta__area blue-bg-10 pt-140 pb-130 p-relative fix z-index-1">
             <div className="cta__shape">
-              <Image className="cta-4-shape" src="assets/img/cta/home-4/cta-shape.png" alt="" />
+              <img className="cta-4-shape" src="assets/img/cta/home-4/cta-shape.png" alt="" />
             </div>
             <div className="container">
               <div className="row">
@@ -204,7 +202,7 @@ export default function Home() {
                   <div className="support__item white-bg mb-30 transition-3 text-center">
                     <div className="support__icon mb-15 d-flex align-items-end justify-content-center">
                       <a href="#">
-                        <Image src="assets/img/support/stack-1.png" alt="" />
+                        <img src="assets/img/support/stack-1.png" alt="" />
                       </a>
                     </div>
                     <div className="support__content">
@@ -216,7 +214,7 @@ export default function Home() {
                   <div className="support__item white-bg mb-30 transition-3 text-center">
                     <div className="support__icon mb-15 d-flex align-items-end justify-content-center">
                       <a href="#">
-                        <Image src="assets/img/support/twitter.png" alt="" />
+                        <img src="assets/img/support/twitter.png" alt="" />
                       </a>
                     </div>
                     <div className="support__content">
@@ -228,7 +226,7 @@ export default function Home() {
                   <div className="support__item white-bg mb-30 transition-3 text-center">
                     <div className="support__icon mb-15 d-flex align-items-end justify-content-center">
                       <a href="#">
-                        <Image src="assets/img/support/google-drive.png" alt="" />
+                        <img src="assets/img/support/google-drive.png" alt="" />
                       </a>
                     </div>
                     <div className="support__content">
@@ -240,7 +238,7 @@ export default function Home() {
                   <div className="support__item white-bg mb-30 transition-3 text-center">
                     <div className="support__icon mb-15 d-flex align-items-end justify-content-center">
                       <a href="#">
-                        <Image src="assets/img/support/behance.png" alt="" />
+                        <img src="assets/img/support/behance.png" alt="" />
                       </a>
                     </div>
                     <div className="support__content">
@@ -252,7 +250,7 @@ export default function Home() {
                   <div className="support__item white-bg mb-30 transition-3 text-center">
                     <div className="support__icon mb-15 d-flex align-items-end justify-content-center">
                       <a href="#">
-                        <Image src="assets/img/support/whatsapp.png" alt="" />
+                        <img src="assets/img/support/whatsapp.png" alt="" />
                       </a>
                     </div>
                     <div className="support__content">

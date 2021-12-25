@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image";
 
 
 export default function Header() {
@@ -16,7 +15,7 @@ export default function Header() {
                 <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-6">
                   <div className="logo">
                     <Link href="/">
-                      <Image src="assets/img/logo/logoo.png" alt="logo" />
+                      <img src="assets/img/logo/logoo.png" alt="logo" />
                     </Link>
                   </div>
                 </div>
@@ -129,7 +128,7 @@ export default function Header() {
             <div className="sidebar__content">
               <div className="logo mb-40">
                 <a href="index.html">
-                  <Image src="assets/img/logo/logo.png" alt="logo" />
+                  <img src="assets/img/logo/logo.png" alt="logo" />
                 </a>
               </div>
               <div className="mobile-menu mobile-menu-5" />

@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -16,7 +15,7 @@ export default function Footer() {
                     <div className="footer__widget-title mb-25">
                       <div className="footer__logo">
                         <a href="#">
-                          <Image src="assets/img/logo/logo-2.png" alt="logo" />
+                          <img src="assets/img/logo/logo-2.png" alt="logo" />
                         </a>
                       </div>
                     </div>
