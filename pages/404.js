@@ -15,10 +15,10 @@ export default function Custom404() {
                 <div className="error__content">
                   <h3>Page not found</h3>
                   <p>
-                   The Page You look for is not available. come again soon.
+                    The Page You look for is not available. come again soon.
                   </p>
-                  <Link href="/" className="w-btn w-btn-11">
-                    Go Home
+                  <Link href="/">
+                    <a className="w-btn w-btn-11">Go Home</a>
                   </Link>
                 </div>
               </div>

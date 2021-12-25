@@ -159,7 +159,7 @@ export default function Footer() {
             </div>
           </div>
         </footer>
-        <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+        {/* <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
         <script src="assets/js/vendor/waypoints.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/jquery.meanmenu.js"></script>
@@ -171,7 +171,7 @@ export default function Footer() {
         <script src="assets/js/ajax-form.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="assets/js/main.js"></script> */}
       </div>
     );
 }
