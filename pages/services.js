@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Layout from "../components/Layout";
 
 export default function Services (){
@@ -7,8 +8,8 @@ export default function Services (){
         {/* services area start */}
         <section className="services__area grey-bg-3 pt-120 pb-90 p-relative">
           <div className="services__shape-2">
-            <img className="services-2-circle" src="assets/img/icon/services/home-2/services-circle.png" alt="" />
-            <img className="services-2-circle-2" src="assets/img/icon/services/home-2/services-circle-2.png" alt="" />
+            <Image className="services-2-circle" src="assets/img/icon/services/home-2/services-circle.png" alt="" />
+            <Image className="services-2-circle-2" src="assets/img/icon/services/home-2/services-circle-2.png" alt="" />
           </div>
           <div className="container">
             <div className="row align-items-end">
@@ -25,7 +26,7 @@ export default function Services (){
                 <div className="services__inner services__inner-2 hover__active mb-30">
                   <div className="services__item-2 transition-3 white-bg ">
                     <div className="services__icon-2">
-                      <img src="assets/img/icon/services/home-2/services-1.png" alt="" />
+                      <Image src="assets/img/icon/services/home-2/services-1.png" alt="" />
                     </div>
                     <div className="services__content-2">
                       <h3 className="services__title-2"><a href="services-details.html">Development</a></h3>
@@ -38,7 +39,7 @@ export default function Services (){
                 <div className="services__inner services__inner-2 hover__active active mb-30">
                   <div className="services__item-2 transition-3 white-bg ">
                     <div className="services__icon-2">
-                      <img src="assets/img/icon/services/home-2/services-2.png" alt="" />
+                      <Image src="assets/img/icon/services/home-2/services-2.png" alt="" />
                     </div>
                     <div className="services__content-2">
                       <h3 className="services__title-2"><a href="services-details.html">Technology</a></h3>
@@ -51,7 +52,7 @@ export default function Services (){
                 <div className="services__inner services__inner-2 hover__active mb-30">
                   <div className="services__item-2  transition-3 white-bg">
                     <div className="services__icon-2">
-                      <img src="assets/img/icon/services/home-2/services-3.png" alt="" />
+                      <Image src="assets/img/icon/services/home-2/services-3.png" alt="" />
                     </div>
                     <div className="services__content-2">
                       <h3 className="services__title-2"><a href="services-details.html">OptimalSort</a></h3>
@@ -70,7 +71,7 @@ export default function Services (){
             <span />
           </div>
           <div className="features__shape">
-            <img className="features-circle-1" src="assets/img/icon/features/home-1/circle-1.png" alt="" />
+            <Image className="features-circle-1" src="assets/img/icon/features/home-1/circle-1.png" alt="" />
           </div>
           <div className="container">
             <div className="row">

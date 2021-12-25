@@ -1,36 +1,37 @@
+import Image from "next/image";
+
 export const Hero = () => {
   return (
     <div>
       {/* hero area start */}
       <section className="hero__area hero__height-4 grey-bg-9 p-relative d-flex align-items-center">
         <div className="hero__shape-4">
-          
-          <img
+          <Image
             className="cross-1"
             src="assets/img/icon/hero/home-4/cross-1.png"
             alt=""
           />
-          <img
+          <Image
             className="cross-2"
             src="assets/img/icon/hero/home-4/cross-2.png"
             alt=""
           />
-          <img
+          <Image
             className="cross-3"
             src="assets/img/icon/hero/home-4/cross-3.png"
             alt=""
           />
-          <img
+          <Image
             className="dot-1"
             src="assets/img/icon/hero/home-4/dot-1.png"
             alt=""
           />
-          <img
+          <Image
             className="dot-2"
             src="assets/img/icon/hero/home-4/dot-2.png"
             alt=""
           />
-          <img
+          <Image
             className="dot-3"
             src="assets/img/icon/hero/home-4/dot-3.png"
             alt=""
@@ -42,10 +43,12 @@ export const Hero = () => {
               <div className="hero__content-4 pr-70">
                 <h3 className="hero__title-4 wow fadeInUp" data-wow-delay=".3s">
                   {" "}
-                  <span>DATA TECH</span> Cyber Security <br></br>& Software Development
+                  <span>DATA TECH</span> Cyber Security <br></br>& Software
+                  Development
                 </h3>
                 <p className="wow fadeInUp" data-wow-delay=".5s">
-                  Get the best cyber security services and a powerfull, secured software products right away.
+                  Get the best cyber security services and a powerfull, secured
+                  software products right away.
                 </p>
                 <div
                   className="hero__features d-sm-flex mb-25 wow fadeInUp"
@@ -54,7 +57,9 @@ export const Hero = () => {
                   <div className="hero__features-item ">
                     <ul>
                       <li>Penetration Testing</li>
-                      <li>Network & Network<br></br> Management</li>
+                      <li>
+                        Network & Network<br></br> Management
+                      </li>
                     </ul>
                   </div>
                   <div className="hero__features-item">
@@ -85,12 +90,12 @@ export const Hero = () => {
             <div className="col-xxl-5 col-xl-5 col-lg-6">
               <div className="hero__thumb-4-wrapper">
                 <div className="hero__thumb-4 p-relative">
-                  <img
+                  <Image
                     className="girl"
                     src="assets/img/hero/home-4/cyberr.png"
                     alt=""
                   />
-                  <img
+                  <Image
                     className="flower"
                     src="assets/img/hero/home-4/aapr.png"
                     alt=""

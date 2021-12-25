@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Testimonial = () => {
   return (
     <>
@@ -16,7 +18,7 @@ export const Testimonial = () => {
                   }}
                 >
                   <span className="section__pre-title-img">
-                    <img src="assets/img/icon/title/why.png" alt="" />
+                    <Image src="assets/img/icon/title/why.png" alt="" />
                   </span>
                   <h2 className="section__title section__title-3">
                     Why Choose Us Custom Mobile App Development.
@@ -139,7 +141,7 @@ export const Testimonial = () => {
                 }}
               >
                 <span className="section__pre-title-img">
-                  <img src="assets/img/icon/title/testimonial.png" alt="" />
+                  <Image src="assets/img/icon/title/testimonial.png" alt="" />
                 </span>
                 <h2 className="section__title section__title-3 section-mb-15">
                   See What Others Have to Say
@@ -205,7 +207,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-4.png"
                               alt=""
                             />
@@ -251,7 +253,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-4.png"
                               alt=""
                             />
@@ -297,7 +299,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-5.png"
                               alt=""
                             />
@@ -343,7 +345,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-6.png"
                               alt=""
                             />
@@ -389,7 +391,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-1.png"
                               alt=""
                             />
@@ -435,7 +437,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-2.png"
                               alt=""
                             />
@@ -481,7 +483,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-3.png"
                               alt=""
                             />
@@ -527,7 +529,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-4.png"
                               alt=""
                             />
@@ -573,7 +575,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-4.png"
                               alt=""
                             />
@@ -619,7 +621,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-5.png"
                               alt=""
                             />
@@ -665,7 +667,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-6.png"
                               alt=""
                             />
@@ -711,7 +713,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-1.png"
                               alt=""
                             />
@@ -757,7 +759,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-2.png"
                               alt=""
                             />
@@ -803,7 +805,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-3.png"
                               alt=""
                             />
@@ -849,7 +851,7 @@ export const Testimonial = () => {
                         </div>
                         <div className="testimonial__person d-flex align-items-center">
                           <div className="testimonial__avater mr-20">
-                            <img
+                            <Image
                               src="assets/img/testimonial/home-1/testi-4.png"
                               alt=""
                             />

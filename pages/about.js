@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
@@ -19,7 +20,7 @@ export default function AboutPage() {
               <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div className="services__item-4 white-bg mb-30">
                   <div className="services__thumb-4 text-center d-flex align-items-end justify-content-center">
-                    <img src="assets/img/services/home-4/services-1.png" alt="" />
+                    <Image src="assets/img/services/home-4/services-1.png" alt="" />
                   </div>
                   <div className="services__content-4">
                     <h3 className="services__title-4"><a href="services-details.html">Finish routine tasks automatically</a></h3>
@@ -31,7 +32,7 @@ export default function AboutPage() {
               <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div className="services__item-4 white-bg mb-30">
                   <div className="services__thumb-4 text-center d-flex align-items-end justify-content-center">
-                    <img src="assets/img/services/home-4/services-2.png" alt="" />
+                    <Image src="assets/img/services/home-4/services-2.png" alt="" />
                   </div>
                   <div className="services__content-4">
                     <h3 className="services__title-4"><a href="services-details.html">Start workflows from any app</a></h3>
@@ -63,7 +64,7 @@ export default function AboutPage() {
               </div>
               <div className="col-xxl-6 offset-xxl-1 col-xl-6 col-lg-6 wow fadeInRight" data-wow-delay=".7s">
                 <div className="about__thumb-wrapper-2 ml-40 p-relative m-img">
-                  <img src="assets/img/about/about-img.jpg" alt="" />
+                  <Image src="assets/img/about/about-img.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -147,9 +148,9 @@ export default function AboutPage() {
         {/* promotion area start */}
         <section className="promotion__area promotion__bg pt-125 pb-125 p-relative">
           <div className="promotion__shape">
-            <img className="promotion-dot" src="assets/img/icon/promotion/pro-dot.png" alt="" />
-            <img className="promotion-plus" src="assets/img/icon/promotion/pro-plus.png" alt="" />
-            <img className="promotion-triangle" src="assets/img/icon/promotion/pro-triangle.png" alt="" />
+            <Image className="promotion-dot" src="assets/img/icon/promotion/pro-dot.png" alt="" />
+            <Image className="promotion-plus" src="assets/img/icon/promotion/pro-plus.png" alt="" />
+            <Image className="promotion-triangle" src="assets/img/icon/promotion/pro-triangle.png" alt="" />
           </div>
           <div className="container">
             <div className="row">
